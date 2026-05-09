@@ -16,9 +16,7 @@
 .logo-text {
   font-size: 1.5rem;
   font-weight: 800;
-  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--gradient-start);
   letter-spacing: -0.02em;
 }
 

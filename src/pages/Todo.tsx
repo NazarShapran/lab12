@@ -139,7 +139,7 @@ const Todo = () => {
 
         <div className="todo-list" role="list">
           {filteredTodos.length === 0 ? (
-            <p className="empty-state">No tasks {filter !== 'all' ? `in ${filter}` : 'yet'}.</p>
+            <p className="empty-state" role="listitem">No tasks {filter !== 'all' ? `in ${filter}` : 'yet'}.</p>
           ) : (
             filteredTodos.map(todo => (
               <div 

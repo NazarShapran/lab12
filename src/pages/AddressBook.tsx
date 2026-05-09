@@ -141,15 +141,15 @@ const AddressBook = () => {
 
       <div className="contacts-grid" role="list" aria-label="Contacts list">
         {filteredContacts.length === 0 ? (
-          <p className="empty-state">No contacts found.</p>
+          <p className="empty-state" role="listitem">No contacts found.</p>
         ) : (
           filteredContacts.map(contact => (
             <div key={contact.id} className="contact-card" role="listitem">
               <div className="contact-avatar" aria-hidden="true">{contact.name.charAt(0)}</div>
               <div className="contact-info">
                 <h3>{contact.name}</h3>
-                <p className="phone" aria-label={`Phone: ${contact.phone}`}>📞 {contact.phone}</p>
-                <p className="email" aria-label={`Email: ${contact.email}`}>✉️ {contact.email}</p>
+                <p className="phone"><span className="sr-only">Phone: </span>📞 {contact.phone}</p>
+                <p className="email"><span className="sr-only">Email: </span>✉️ {contact.email}</p>
               </div>
               <div className="contact-actions">
                 <button 

@@ -1,6 +1,9 @@
 :root {
-  --primary-color: #6366f1;
-  --primary-hover: #4f46e5;
+  --primary-color: #4f46e5;
+  --primary-hover: #4338ca;
+  --primary-text: #818cf8;
+  --gradient-start: #818cf8;
+  --gradient-end: #c084fc;
   --font-main: 'Host Grotesk', system-ui, -apple-system, sans-serif;
   
   /* Dark Theme (Default) */
@@ -50,7 +53,7 @@ body {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #6366f1, #a855f7);
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

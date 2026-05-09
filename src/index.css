@@ -1,9 +1,9 @@
 :root {
   --primary-color: #4f46e5;
   --primary-hover: #4338ca;
-  --primary-text: #818cf8;
-  --gradient-start: #818cf8;
-  --gradient-end: #c084fc;
+  --primary-text: #a5b4fc;
+  --gradient-start: #a5b4fc;
+  --gradient-end: #d8b4fe;
   --font-main: 'Host Grotesk', system-ui, -apple-system, sans-serif;
   
   /* Dark Theme (Default) */

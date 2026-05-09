@@ -65,8 +65,8 @@
 }
 
 .filter-btn.active {
-  border-color: var(--primary-color);
-  color: var(--primary-color);
+  border-color: var(--primary-text);
+  color: var(--primary-text);
 }
 
 .clear-btn {
